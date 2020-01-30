@@ -23,13 +23,14 @@ b)	Faz-se necessário instalar um interpretador para o pycharm funcionar correta
 
 2.	Para rodar e verificar as soluções:
 a)	Após os passos relatados em a) e b) do item anterior, deve-se abrir o programa “pycharm”;
-b)	Em “file -> open” selecionar a pasta chamada “Kaffa_Mobile”;
+b)	Em “file -> open” selecionar a pasta onde foram colocados os arquivos “Nome da pasta”;
 c)	Na barra lateral esquerda “Project” selecionar a opção “Project Files”;
-d)	Abrir a pasta do exercício que deseja verificar a solução;
+d)	Abrir o exercício que deseja verificar a solução;
 e)	Para verificar as linhas de código prosseguir com clique duplo;
 f)	Para rodar a solução, pular o item e), clicar com o botão direito do mouse e clicar em “Run ‘exercícioDesejado’”;
 g)	Seguir as orientações na barra “Run”,  que geralmente fica na parte inferior da tela, abaixo da barra lateral esquerda “Project”.
 
+################Entrada de dados######################
 3.	Sobre a entrada de dados:
 
 a)	Exercício 1 – os dados de entrada podem ser de qualquer tipo, contudo, caso não seja no formato “00.000.000/0000-00” ou “00000000000000”, será dada uma mensagem de erro. Dados que dão mensagens inválidas: letras em alguma das posições nos formatos de exemplo; caso tenha um número diferente de 14 dígitos;
@@ -40,12 +41,12 @@ d)	Exercício 4 – Ao final da verificação da interseção (exercício 3), ca
 4.	Resolução do exercício 8
 O exercício 8 foi resolvido utilizando uma ferramenta gratuita online para o desenho de diagramas, entre eles o UML, dentre eles o de entidade-relacionamento. Com isso, como requerido pelo enunciado, o “Order Manager System”  deve conter as classes: Clientes, Produtos e Ordens. Destes, foram identificados alguns parâmetros (no formato “parâmetro: tipo”), conforme a tabela 1, mostrada abaixo:
 
-Clientes	        Produtos	              Ordem_Produto	          Ordem_Geral
-ID_cliente:       int	ID_produto: int	    ID_ordem: int	          ID_ordem: varchar
-Nome: varchar	    Nome: varchar	          Descricao: varchar	    ID_cliente: int
-End: varchar	    Preco: float	          ID_produto: int	        Data: Date
-CEP: int	        Descricao: varchar	    Quantidade: int	        Valor: float
-	Estoque: int	  Preco: float	
+Clientes	        Produtos	              	Ordem_Produto	          	Ordem_Geral
+ID_cliente:       	int	ID_produto: int	    	ID_ordem: int	          	ID_ordem: varchar
+Nome: varchar	    	Nome: varchar	          	Descricao: varchar	    	ID_cliente: int
+End: varchar	    	Preco: float	          	ID_produto: int	       		Data: Date
+CEP: int	        Descricao: varchar	    	Quantidade: int	        	Valor: float
+Estoque: int	  	Preco: float	
 
 
 Com base na tabela 1, tem-se o modelo de entidade-relacionamento mostrado na figura 1, mostrada abaixo:
