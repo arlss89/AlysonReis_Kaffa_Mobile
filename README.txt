@@ -3,7 +3,7 @@ Este repositório faz parte da solução do teste para pré-seleção para está
 
 
 ############ Instruções##########
-OBS: Como é pedido a solução em software tipo opensource, este arquivo pode ser aberto em um bloco de notas, sendo totalmente gratuito
+OBS: Como é pedida a solução em software livre, este arquivo, README.txt, pode ser aberto em quqlquer bloco de notas, sendo totalmente gratuito.
 
 Candidato: Alyson Reis dos Santos.
 Contatos:	alyson.santos@fatec.sp.gov.br
